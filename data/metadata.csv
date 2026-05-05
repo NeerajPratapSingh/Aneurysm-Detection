@@ -1,0 +1,11 @@
+patient_id,age,gender,dicom_path,aneurysm_present
+PT001,45,M,data/sample/PT001.dcm,1
+PT002,52,F,data/sample/PT002.dcm,0
+PT003,48,M,data/sample/PT003.dcm,1
+PT004,61,F,data/sample/PT004.dcm,0
+PT005,55,M,data/sample/PT005.dcm,1
+PT006,58,F,data/sample/PT006.dcm,0
+PT007,51,M,data/sample/PT007.dcm,1
+PT008,49,F,data/sample/PT008.dcm,0
+PT009,56,M,data/sample/PT009.dcm,1
+PT010,63,F,data/sample/PT010.dcm,0
