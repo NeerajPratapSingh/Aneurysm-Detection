@@ -167,32 +167,6 @@ def show_about():
     st.header("About")
     
     st.markdown("""
-    ### Aneurysm Detection System
-    
-    **Version**: 1.0.0
-    
-    **Technology Stack**:
-    - **Deep Learning**: PyTorch, TensorFlow
-    - **Machine Learning**: scikit-learn
-    - **Medical Imaging**: PyDICOM
-    - **Web Framework**: Streamlit
-    - **Image Processing**: OpenCV
-    
-    **Architecture**:
-    - CNN Feature Extraction (ResNet50, VGG16, Inception)
-    - Gradient Boosting Classification
-    - Advanced preprocessing and normalization
-    
-    **Authors**:
-    - Neeraj Pratap Singh
-    
-    **Citation**:
-    If you use this system in research, please cite this repository.
-    
-    **Disclaimer**:
-    This system is for research purposes only and should not be used for
-    clinical diagnosis without proper validation and approval.
-    """)
 
 
 if __name__ == "__main__":
