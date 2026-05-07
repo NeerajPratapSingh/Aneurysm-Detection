@@ -2,46 +2,6 @@
 
 A hybrid deep learning pipeline for detecting cerebral aneurysms from CTA (CT Angiography) images using CNN feature extraction combined with gradient boosting classification.
 
-## 🎯 Overview
-
-This project implements a comprehensive aneurysm detection system that combines:
-- **CNN Feature Extraction**: ResNet50, VGG16, Inception for deep feature learning
-- **Boosting Classification**: Gradient Boosting and XGBoost for robust classification
-- **Preprocessing Pipeline**: Advanced DICOM handling, slice selection, and image enhancement
-- **Web Interface**: Streamlit-based UI for easy prediction and visualization
-
-## 📁 Project Structure
-
-```
-aneurysm-detection/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── .gitignore                         # Git ignore rules
-├── data/
-│   ├── sample/                       # Demo dataset
-│   └── metadata.csv                  # Patient metadata
-├── notebooks/
-│   └── demo.ipynb                    # Interactive demo notebook
-├── src/
-│   ├── config.py                     # Configuration settings
-│   ├── preprocessing/
-│   │   ├── slice_selection.py        # Intelligent slice selection
-│   │   ├── preprocessing.py          # Image preprocessing
-│   │   └── visualization.py          # Visualization utilities
-│   ├── models/
-│   │   ├── cnn_feature_extractor.py # CNN-based features
-│   │   ├── boosting.py              # Boosting classifiers
-│   │   └── baseline.py              # Baseline models
-│   ├── pipeline/
-│   │   ├── hybrid_pipeline.py       # CNN + Boosting hybrid
-│   │   └── original_pipeline.py     # Hand-crafted features
-│   ├── utils/
-│   │   ├── dicom_loader.py          # DICOM file handling
-│   │   └── metadata.py              # Metadata management
-│   └── app/
-│       └── ui.py                    # Streamlit web interface
-└── outputs/                          # Results and models
-```
 
 ## 🚀 Quick Start
 
@@ -155,9 +115,6 @@ Contributions are welcome! Please:
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see LICENSE file for details.
 
 ## 👨‍💻 Authors
 
